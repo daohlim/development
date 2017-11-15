@@ -1,0 +1,81 @@
+.results {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.errorMessage {
+  text-align: center;
+  grid-column: 1/6;
+  grid-row: 2;
+}
+
+.menuDesc {
+  display: inline;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 500;
+}
+
+.tierInfo {
+  display: inline;
+}
+
+.header {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+#typeDropdown {
+  padding: 10px 20px;
+  margin : 5px 5px;
+}
+
+.searchBar {
+  padding: 10px 5px;
+  margin : 5px 10px;
+}
+
+.searchContainer {
+  background-color: lightblue;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
